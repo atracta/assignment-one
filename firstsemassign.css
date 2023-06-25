@@ -574,4 +574,34 @@
   margin-bottom: 24px;
   margin-top: 16px;
 }
+
+.desktop1_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.desktop1Words {
+  color: var(--primary-300-base, #0065fe);
+  font: 400 16px/12px "Gilroy-SemiBold", sans-serif;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: 2px solid #0065fe;
+  background-color: var(--neutral-white, #ffffff);
+  margin-bottom: 120px;
+}
+
+.selectPricingBtn {
+  color: var(--neutral-white, #ffffff);
+  font: 400 16px/12px "Gilroy-SemiBold", sans-serif;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: 0;
+  background-color: var(--primary-300-base, #0065fe);
+  margin-bottom: 120px;
+}
 /* page 2 styling */
