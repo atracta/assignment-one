@@ -486,8 +486,64 @@
   position: relative;
 }
 
-.ysci{
+.ysci {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
 
-  
+.urlshorten {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.chooseScissors {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.csTxt {
+  color: var(--text-color-maintext, #141414);
+  text-align: left;
+  font: 400 16px/28px "Gilroy-Medium", sans-serif;
+  position: relative;
+  width: 370px;
+  height: 192px;
+}
+
+.linksci {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.wholeSci {
+  text-align: left;
+  font: 400 40px/32px "Gilroy-Bold", sans-serif;
+  position: relative;
+}
+
+.sciSent {
+  color: var(--text-color-maintext, #141414);
+  font: 400 40px/32px "Gilroy-Bold", sans-serif;
+}
+
+.sciColor {
+  color: var(--primary-400, #005ae2);
+  font: 400 40px/32px "Gilroy-Bold", sans-serif;
 }
 /* page 2 styling */
