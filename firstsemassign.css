@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.logo span {
+  color: #0065fe;
+  font-size: 25px;
+}
+
+.logo img {
+  line-height: 1.5;
+  height: 20px;
+}
+
+.urls li {
+  list-style-type: none;
+  color: black;
+  font-size: 13px;
+}
+
+.urls ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.loginBtn {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.tryFree {
+  padding: 10px 20px;
+  background-color: #0065fe;
+  border-radius: 15px;
+  outline: none;
+}
+
+/* footer i'm styling */
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerScissor {
+}
+
+.footerSocials {
+  display: flex;
+  flex-direction: row;
+}
+
+.topRow {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.whySci {
+}
+
+.whySci li {
+  list-style-type: none;
+}
+
+.Solutions {
+}
+
+.Solutions li {
+  list-style-type: none;
+}
+
+.Products {
+}
+
+.Products li {
+  list-style-type: none;
+}
+
+.Company {
+}
+
+.Company li {
+  list-style-type: none;
+}
+
+.bottomRow {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.Resources {
+}
+
+.Resources li {
+  list-style-type: none;
+}
+
+.Features {
+}
+
+.Features li {
+  list-style-type: none;
+}
+
+.Legal {
+}
+
+.Legal li {
+  list-style-type: none;
+}
+/* footer i'm styling */
+
+/* Styling Hero Section */
+
+.Optimize {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.optimizeYourOnlineExperience {
+  text-align: center;
+  font: 400 48px/96px "Gilroy-Bold", sans-serif;
+  position: relative;
+  width: 948px;
+  height: 200px;
+}
+
+/* .optimizeShortened {
+  text-align: center;
+  font: 400 48px/96px "Gilroy-Bold", sans-serif;
+  position: relative;
+  width: 948px;
+  height: 200px;
+} */
+
+.personalizeShortened {
+  color: var(--text-color-maintext, #141414);
+  text-align: center;
+  font: 400 18px/28px "Gilroy-Medium", sans-serif;
+  position: relative;
+  width: 781px;
+  height: 105px;
+}
+
+.optimizeBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.signUp {
+  background: var(--primary-300-base, #0065fe);
+  border-radius: 100px;
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 142px;
+  height: 44px;
+  position: relative;
+  overflow: hidden;
+}
+
+.signUpWords {
+  color: var(--neutral-white, #ffffff);
+  text-align: left;
+  font: 400 16px/12px "Gilroy-SemiBold", sans-serif;
+  position: relative;
+}
+
+.learnMore {
+  color: var(--primary-300-base, #0065fe);
+  text-align: left;
+  font: 400 16px "Gilroy-SemiBold", sans-serif;
+  position: relative;
+}
+
+.words {
+  color: var(--text-color-maintext, #141414);
+  font: 400 48px/96px "Gilroy-Bold", sans-serif;
+}
+
+.URLshortening {
+  color: var(--primary-400, #005ae2);
+  font: 400 48px/96px "Gilroy-Bold", sans-serif;
+}
+
+.solutionWord {
+  color: var(--text-color-maintext, #141414);
+  font: 400 48px/96px "Gilroy-Bold", sans-serif;
+}
+
+.imageBoarder {
+  position: absolute;
+  inset: 0;
+}
+
+.vector-2 {
+  position: absolute;
+  left: 369px;
+  top: 725.63px;
+  transform: translate(69.39px, -108.36px);
+  overflow: visible;
+}
+
+.image {
+}
+
+.seamlessWords {
+}
+/* Styling Hero Section */
