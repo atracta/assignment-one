@@ -524,8 +524,10 @@
   margin-bottom: 60px;
 }
 
-.container{
+.container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* page 2 styling */
